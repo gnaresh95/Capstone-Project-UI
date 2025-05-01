@@ -1,0 +1,91 @@
+/* ViewCart Page Styles */
+.viewcart-page {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .viewcart-page h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .product-summary {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .product-summary h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .product-summary p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 12px;
+  }
+  
+  .product-summary h3 {
+    font-size: 1.4rem;
+    color: #27ae60;
+    margin-top: 10px;
+  }
+  
+  /* Dropdown Styles */
+  .product-summary select {
+    padding: 8px 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #fff;
+    width: 100%;
+    max-width: 250px;
+    margin-top: 6px;
+  }
+  
+  .product-summary select:focus {
+    outline: none;
+    border-color: #007acc;
+    box-shadow: 0 0 5px rgba(0, 122, 204, 0.5);
+  }
+  
+  /* Action Buttons */
+  .product-summary button {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  .product-summary button:hover {
+    background-color: #2ecc71;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .viewcart-page {
+      padding: 15px;
+    }
+  
+    .product-summary {
+      padding: 15px;
+    }
+  
+    .product-summary select {
+      max-width: 100%;
+    }
+  }  
